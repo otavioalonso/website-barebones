@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+html {
+  background-color: white;
+  color: #333;
+  font-family: "Open Sans";
+  line-height: 1.5;
+}
+div#header {
+  font-size: 28px;
+  font-weight: bold;
+  height: 32px;
+  line-height: 32px;
+  padding: 24px 0px 12px 128px;
+  margin: 0px;
+  /* text-transform: uppercase; */
+  font-family: "Merienda";
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+div#header img {
+  float: left;
+  margin: 0px 30px 0px 0px;
+}
+div#header a {
+  text-decoration: none;
+}
+div#main {
+  margin: 0px auto 0px auto;
+  width: 860px;
+}
+div#sidebar {
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 160px;
+  float: left;
+  position: fixed;
+  top: 70px;
+}
+div#sidebar {
+  font-family: "Open Sans";
+  
+}
+div#sidebar h1 {
+  clear: both;
+  float: right;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+div#sidebar a {
+  clear: both;
+  display: block;
+  float: right;
+  margin-bottom: 10px;
+  text-decoration: none;
+  
+  color: #000;
+  font-family: "Merienda";
+}
+div#sidebar img {
+  margin: 0px;
+}
+div#content {
+  margin-top: 60px;
+  width: 670px;
+  float: right;
+}
+div#footer {
+  padding-top: 30px;
+  clear: both;
+  font-size: 90%;
+  text-align: center;
+}
+p {
+  padding: 0px;
+  margin: 20px 0px 20px 0px;
+}
+a {
+  color: #333;
+}
+h1, h2, h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Fira Sans Condensed";
+}
+img.figure {
+  border: none;
+  display: block;
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 10pt;
+}
+figcaption {
+  margin-top: -20px;
+  font-size: 90%;
+  /* text-align: center; */
+  font-style: italic;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img.link {
+    margin-bottom: -6pt;
+}

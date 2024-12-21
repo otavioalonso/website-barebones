@@ -1,0 +1,13 @@
+site/*.html
+.firebaserc
+firebase.json
+*.cache
+*.jpg
+*.png
+*.pdf
+*.gif
+*.mp4
+*.svg
+site/talks/*
+site/images/*
+
